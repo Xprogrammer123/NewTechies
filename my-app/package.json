@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
-    "scripts": {
-      "dev": "vite",
-      "build": "vite build",
-      "serve": "vite preview"
-    },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
   "dependencies": {
     "framer-motion": "^11.11.10",
     "lucide-react": "^0.454.0",
@@ -30,5 +29,8 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.9"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

@@ -5,6 +5,11 @@ import { FloatingElements } from '../components/Background/FloatingElement';
 import { HeroSection } from '../components/Sections/HeroSection';
 import { ServicesSection } from '../components/Sections/ServiceSection';
 import { ProjectsSection } from '../components/Sections/ProjectSection';
+import ClientSection from '../components/Sections/ClientSection';
+import TechnologySection from '../components/Sections/TechnologySection';
+import TestimonialSection from '../components/Sections/TestimonialSection'
+
+
 
 export default function Home() {
   return (
@@ -17,9 +22,12 @@ export default function Home() {
       <FloatingElements />
       
       <div className="relative z-10">
-        <HeroSection />
+      <HeroSection />
         <ServicesSection />
+        <TechnologySection />
         <ProjectsSection />
+        <TestimonialSection />
+        <ClientSection />
       </div>
     </motion.div>
   );

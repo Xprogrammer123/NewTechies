@@ -7,7 +7,7 @@ export default function Navbar() {
   
   return (
     <motion.nav 
-      className="bg-gray-900/50 backdrop-blur-md fixed w-full z-50"
+      className="bg-gray-900/10 backdrop-blur-md fixed w-full z-50"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8 }}
@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
         
-          <Link to="/" className="text-2xl font-bold text-white">
+          <Link to="/" className="md:text-2xl text-xl font-bold text-white">
           
             New Techies
           </Link>

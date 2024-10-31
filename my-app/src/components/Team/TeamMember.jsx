@@ -12,7 +12,7 @@ export const TeamMember = ({ name, role, image, bio, delay }) => {
       <motion.img 
         src={image}
         alt={`Image of ${name}`}  // Improved alt text for better accessibility
-        className="w-full h-64 object-cover"
+        className="w-full h-80 object-cover"
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.3 }}
       />

@@ -17,9 +17,8 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, delay: 0.3 }}
           >
-            Innovate.<br />
-            Create.<br />
-            Transform.
+            Your Digital<br />
+            Growth Partner
           </motion.h1>
           
           <motion.p 
@@ -28,7 +27,7 @@ export function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1.2, delay: 0.6 }}
           >
-            We're a digital agency that helps businesses grow through innovative technology solutions.
+           We help businesses thrive online. Our experts boost visibility, solve tech problems, and drive growth through tailored digital solutions.
           </motion.p>
 
           <motion.button 
@@ -55,16 +54,18 @@ export function HeroSection() {
             animate={{ scale: 1 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
-          
-          <motion.div 
+         
+        {/*  <motion.div 
             className="absolute -bottom-4 -right-4 bg-blue-600 rounded-lg p-6 shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
           >
+
             <h3 className="text-2xl font-bold text-white mb-2">100+</h3>
             <p className="text-blue-100">Projects Delivered</p>
           </motion.div>
+*/}
         </motion.div>
       </div>
     </div>

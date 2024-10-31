@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navigation/Navbar';
 import { Footer } from './components/Footer/Footer';
 import Home from './pages/Home';
-import Team from './pages/Team';
+import Team from './Pages/Team';
 import Contact from './pages/Contact';
+import Terms from './Pages/Terms';
+import Privacy from './Pages/Privacy';
 import { FloatingElements } from './components/Background/FloatingElement';
 
 
@@ -20,6 +22,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
         <Footer />

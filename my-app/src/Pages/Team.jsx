@@ -4,22 +4,22 @@ import { TeamMember } from '../components/Team/TeamMember';
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
-    role: "CEO & Founder",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
-    bio: "Visionary leader with 15+ years in tech innovation"
+    name: "John (Gbenga) Ayodele AKA Techie John",
+    role: "CEO & Founder || Back-End Developer",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHSp2VDuB_nnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715699896171?e=1735776000&v=beta&t=QOmyVtqzwQ9DaDPXKKNliMj9bRUMBk50zuGwpAoSFqc",
+    bio: "Visionary leader with 5+ years in tech innovation"
   },
   {
-    name: "Michael Chen",
-    role: "Technical Director",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-    bio: "Full-stack expert specializing in scalable solutions"
+    name: "Ishu (Deborah) Doofan",
+    role: "Graphic Designer||Discord Server Developer",
+    image: "https://media.licdn.com/dms/image/v2/D4D35AQHmqs1ayU4EKg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1725716897451?e=1730890800&v=beta&t=Bjnb-Jl60MzhGXaZLJR0n5ofgQTDY9wmiBjdJJ9_QPw",
+    bio: "Creative and versatile, combining design skills with seamless community building"
   },
   {
-    name: "Emma Williams",
-    role: "Design Lead",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
-    bio: "Award-winning UX/UI designer with a passion for user-centered design"
+    name: "Fawas (Ade) Saka",
+    role: "Front-End Developer",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQEIjEu9CXPaSw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714152567840?e=1735776000&v=beta&t=IhFIF0SlbTSXbf_S0wxxZaHJpL3EcAtW0tFN6JGgBko",
+    bio: "Skilled in crafting beautiful, responsive interfaces with clean, efficient code."
   }
 ];
 

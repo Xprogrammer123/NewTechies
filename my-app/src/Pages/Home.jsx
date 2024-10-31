@@ -24,10 +24,7 @@ export default function Home() {
       <div className="relative z-10">
       <HeroSection />
         <ServicesSection />
-        <TechnologySection />
         <ProjectsSection />
-        <TestimonialSection />
-        <ClientSection />
       </div>
     </motion.div>
   );

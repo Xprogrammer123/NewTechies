@@ -61,7 +61,6 @@ export function Footer() {
               <li>UI/UX Design</li>
               <li>Digital Marketing</li>
               <li>AI Solutions</li>
-              <li>Cloud Services</li>
             </ul>
           </div>
 
@@ -71,15 +70,15 @@ export function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <GiPositionMarker className="w-5 h-5 text-blue-400" />
-                <span>123 Tech Street, Digital City, 12345</span>
+                <span>ZB 95, Jubilation Avenue, Maitama II, Katampe, Abuja. </span>
               </div>
               <div className="flex items-center space-x-3">
                 <IoMdCall className="w-5 h-5 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+2348101458024</span>
               </div>
               <div className="flex items-center space-x-3">
                 <AiOutlineMail className="w-5 h-5 text-blue-400" />
-                <span>hello@newtechies.com</span>
+                <span> getstarted@techiejohn.com</span>
               </div>
             </div>
           </div>
@@ -91,7 +90,7 @@ export function Footer() {
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="hover:text-blue-400 transition-colors">Privacy Policy</Link>
               <Link to="/terms" className="hover:text-blue-400 transition-colors">Terms of Service</Link>
-              <Link to="/sitemap" className="hover:text-blue-400 transition-colors">Sitemap</Link>
+
             </div>
           </div>
         </div>

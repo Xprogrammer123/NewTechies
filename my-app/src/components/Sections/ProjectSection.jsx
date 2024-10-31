@@ -31,7 +31,7 @@ export function ProjectsSection() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
+          <h2 className="text-4xl font-bold text-white mb-4 text-center">Real scenario of how we can help you</h2>
           <p className="text-xl text-gray-300">Some of our best work</p>
         </motion.div>
 

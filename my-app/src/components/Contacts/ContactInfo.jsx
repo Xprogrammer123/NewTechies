@@ -18,18 +18,22 @@ export function ContactInfo() {
       <div className="space-y-4">
         <div className="flex items-center space-x-3">
           <MapPin className="text-blue-400" />
-          <span>123 Tech Street, Digital City, 12345</span>
+          <span>ZB 95, Jubilation Avenue, Maitama II, Katampe, Abuja</span>
         </div>
         
         <div className="flex items-center space-x-3">
           <Phone className="text-blue-400" />
-          <span>+1 (555) 123-4567</span>
+          <span> +2348101458024  </span>
         </div>
         
         <div className="flex items-center space-x-3">
           <Mail className="text-blue-400" />
-          <span>hello@newtechies.com</span>
+          <span>getstarted@techiejohn.com </span>
         </div>
+      </div>
+
+      <div className=''>
+        <img src="https://st4.depositphotos.com/2903611/29109/i/450/depositphotos_291092974-stock-photo-man-touching-social-network-icons.jpg" alt="" className='' />
       </div>
     </motion.div>
   );

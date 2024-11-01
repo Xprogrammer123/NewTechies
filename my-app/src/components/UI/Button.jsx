@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 export function Button() {
   return (
@@ -11,7 +11,7 @@ export function Button() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 0.9 }}
     >
-      Get Started
+     <Link to="/contact">Get Started</Link>
     </motion.button>
   );
 }

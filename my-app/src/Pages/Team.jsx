@@ -4,10 +4,10 @@ import { TeamMember } from '../components/Team/TeamMember';
 
 const teamMembers = [
   {
-    name: "John (Gbenga) Ayodele AKA Techie John",
-    role: "CEO & Founder || Back-End Developer",
+    name: "John Ayodele ",
+    role: "Project Lead",
     image: "https://media.licdn.com/dms/image/v2/D4D03AQHSp2VDuB_nnA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715699896171?e=1735776000&v=beta&t=QOmyVtqzwQ9DaDPXKKNliMj9bRUMBk50zuGwpAoSFqc",
-    bio: "Visionary leader with 5+ years in tech innovation"
+    bio: "Leader of every project that you bring to the team"
   },
   {
     name: "Ishu (Deborah) Doofan",
